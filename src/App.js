@@ -27,8 +27,8 @@ function App() {
       <div 
         className="absolute inset-0"
         style={{
-          background: 'linear-gradient(135deg, rgba(0,0,0,0.7) 50%, rgba(255,255,255,0.7) 70%)',
-          opacity: 0.85
+          background: 'linear-gradient(135deg, rgba(0,0,0,0.7) 35%, rgba(255,255,255,0.7) 70%)',
+          opacity: 0.82
         }}
       />
       
