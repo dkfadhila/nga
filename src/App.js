@@ -9,7 +9,7 @@ function App() {
     const favicon = document.querySelector('link[rel="icon"]') || document.createElement('link');
     favicon.type = 'image/x-icon';
     favicon.rel = 'icon';
-    favicon.href = 'https://ibb.co/Cr6hvWK';
+    favicon.href = '/images/favicon.ico';
     document.head.appendChild(favicon);
   }, []);
 
@@ -19,7 +19,7 @@ function App() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(https://ibb.co/2YmFr29Y')`
+          backgroundImage: `url('/images/bg.jpg')`
         }}
       />
       
